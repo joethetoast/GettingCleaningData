@@ -47,4 +47,4 @@ for (group in subjectActivityGroups) {
     }
 }
 
-write.csv(tidyDataset, "./smartphone-activity-data-tidy.csv")
+write.table(tidyDataset, "./smartphone-activity-data-tidy.txt", sep=" ")
